@@ -1,0 +1,84 @@
+.phan1{
+    background-color: rgb(223, 232, 246);
+    height: 51px;
+}
+.spanidas{
+    line-height: 48px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(65, 92, 165);
+    font-family: Cambria, "Times New Roman", Tahoma;
+    right: auto;
+    top: 0px;
+}
+.phan2{
+    height: 680px;
+    background: rgb(76, 110, 199);
+}
+.col-sm-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: tahoma,arial,verdana,sans-serif;
+}
+.tren{
+    background-color: crimson;
+    width: 470px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.duoi{
+    border: solid 5px white;
+    width: 470px;
+    height: 40px;
+}
+
+a{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 11px;
+    color: #0000EE;
+    font-family: tahoma,arial,verdana,sans-serif;
+}
+.dong1{
+    padding-top: 10px;
+}
+.cot1{
+    margin-right: 70px;
+    font-size: 18px;
+}
+input[type="text"]{
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline:none;
+    padding: 2px;
+    box-sizing: border-box;
+    transition: .3s;
+    color: black;
+    font-size: 18px;
+}
+input[type="text"]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.inputWithIcon input[type="text"]{
+    padding-left: 40px;
+}
+.inputWithIcon{
+    position: relative;
+}
+.inputWithIcon i{
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: .3s;
+}
+.inputWithIcon input[type="text"]:focus + i{
+    color: dodgerblue;
+}

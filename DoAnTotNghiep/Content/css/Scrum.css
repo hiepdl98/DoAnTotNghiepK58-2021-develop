@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+}
+.container{
+    margin-top: 50px;
+    width: 100%;
+}
+.f-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    flex-flow: row wrap;
+}
+.f-grid-col{
+    height: 400px;
+    padding: 10px;
+    border-left: 2px solid white;
+    background-color: rgb(231, 227, 227);
+    margin-right: 10px;
+    flex: 1 0;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.header{
+    width: 1920;
+    height: 40px;
+    background-color:  rgb(5, 131, 89);
+    display: flex;
+}
+.content{
+    width: 100%;
+    display: flex;
+}
+.header1{
+    margin-left: 60px;
+    width: 97%;
+    height: 60px;
+    background-color:  rgb(3, 45, 53);
+
+}
+.help{
+    color: white;
+    margin-left: 50px;
+    padding-top: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+ul.menungang{
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+ul.menungang h5{
+    color: white;
+    font-size: 10px;
+    font-family: segoe ui light;
+    text-decoration: none;
+
+}

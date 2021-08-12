@@ -1,0 +1,13 @@
+
+.caret1 {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 24px;
+}
+.myLi{
+    margin-left: 30px;
+    font-size: 19px;
+}

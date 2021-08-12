@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cơ cấu tổ chức</title>
+    <link href="~/Content/css/oganization.css" rel="stylesheet" />
+    <script src="~/Scripts/js/department.js"></script>
+</head>
+<body>
+    <h2>Cơ cấu tổ chức</h2>
+    <div class="row">
+        <div class="col-sm-3">
+            <div id="dataOganization" style="border-right: dashed"></div>
+        </div>
+        <div class="col-sm-9">
+            <table class=" table order-list">
+                <thead>
+                    <tr>
+                        <th>EmployeeId</th>
+                        <th class="filter">EmployeeName</th>
+                        <th class="filter">Email</th>
+                    </tr>
+                </thead>
+                <tbody id="getEmpByDepartment"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+
